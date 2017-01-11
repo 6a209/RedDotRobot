@@ -5,8 +5,8 @@
 #include <stdlib.h>
 
 
-const char* ssid = "OpenWrt";
-const char* passwd = "mogujie123";
+const char* ssid = ".....";
+const char* passwd = "......";
 
 //Servo speed;
 #define MAX_SPEED  0
