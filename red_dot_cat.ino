@@ -93,9 +93,13 @@ void setupHttpServer() {
   Serial.println(WiFi.localIP());
 
   server.on("/", handleIndex);
+  // x,y 舵机范围
   server.on("/range", handleRange);
+  // 运行模式，手动or 自动
   server.on("/mode", handleMode);
+  // 手动模式，要去的点的坐标
   server.on("/point", handleManualPoint);
+  // 运行速度 
   server.on("/speed", handleServoSpeed);
   server.begin();
 }
