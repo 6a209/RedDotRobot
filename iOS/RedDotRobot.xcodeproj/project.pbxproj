@@ -1,0 +1,312 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		462C29101E387C9100067C14 /* RedDotAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462C290F1E387C9100067C14 /* RedDotAPI.swift */; };
+		465CCD801E38561700AF83D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465CCD7F1E38561700AF83D8 /* AppDelegate.swift */; };
+		465CCD821E38561700AF83D8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465CCD811E38561700AF83D8 /* ViewController.swift */; };
+		465CCD851E38561700AF83D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 465CCD831E38561700AF83D8 /* Main.storyboard */; };
+		465CCD871E38561700AF83D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 465CCD861E38561700AF83D8 /* Assets.xcassets */; };
+		465CCD8A1E38561700AF83D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 465CCD881E38561700AF83D8 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		462C290F1E387C9100067C14 /* RedDotAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RedDotAPI.swift; sourceTree = "<group>"; };
+		465CCD7C1E38561700AF83D8 /* RedDotRobot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RedDotRobot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		465CCD7F1E38561700AF83D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		465CCD811E38561700AF83D8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		465CCD841E38561700AF83D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		465CCD861E38561700AF83D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		465CCD891E38561700AF83D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		465CCD8B1E38561700AF83D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		465CCD791E38561700AF83D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		465CCD731E38561700AF83D8 = {
+			isa = PBXGroup;
+			children = (
+				465CCD7E1E38561700AF83D8 /* RedDotRobot */,
+				465CCD7D1E38561700AF83D8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		465CCD7D1E38561700AF83D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				465CCD7C1E38561700AF83D8 /* RedDotRobot.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		465CCD7E1E38561700AF83D8 /* RedDotRobot */ = {
+			isa = PBXGroup;
+			children = (
+				465CCD7F1E38561700AF83D8 /* AppDelegate.swift */,
+				465CCD811E38561700AF83D8 /* ViewController.swift */,
+				465CCD831E38561700AF83D8 /* Main.storyboard */,
+				465CCD861E38561700AF83D8 /* Assets.xcassets */,
+				465CCD881E38561700AF83D8 /* LaunchScreen.storyboard */,
+				465CCD8B1E38561700AF83D8 /* Info.plist */,
+				462C290F1E387C9100067C14 /* RedDotAPI.swift */,
+			);
+			path = RedDotRobot;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		465CCD7B1E38561700AF83D8 /* RedDotRobot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 465CCD8E1E38561700AF83D8 /* Build configuration list for PBXNativeTarget "RedDotRobot" */;
+			buildPhases = (
+				465CCD781E38561700AF83D8 /* Sources */,
+				465CCD791E38561700AF83D8 /* Frameworks */,
+				465CCD7A1E38561700AF83D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RedDotRobot;
+			productName = RedDotRobot;
+			productReference = 465CCD7C1E38561700AF83D8 /* RedDotRobot.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		465CCD741E38561700AF83D8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Blank;
+				TargetAttributes = {
+					465CCD7B1E38561700AF83D8 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = K97ZY2D46K;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 465CCD771E38561700AF83D8 /* Build configuration list for PBXProject "RedDotRobot" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 465CCD731E38561700AF83D8;
+			productRefGroup = 465CCD7D1E38561700AF83D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				465CCD7B1E38561700AF83D8 /* RedDotRobot */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		465CCD7A1E38561700AF83D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				465CCD8A1E38561700AF83D8 /* LaunchScreen.storyboard in Resources */,
+				465CCD871E38561700AF83D8 /* Assets.xcassets in Resources */,
+				465CCD851E38561700AF83D8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		465CCD781E38561700AF83D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				462C29101E387C9100067C14 /* RedDotAPI.swift in Sources */,
+				465CCD821E38561700AF83D8 /* ViewController.swift in Sources */,
+				465CCD801E38561700AF83D8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		465CCD831E38561700AF83D8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				465CCD841E38561700AF83D8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		465CCD881E38561700AF83D8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				465CCD891E38561700AF83D8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		465CCD8C1E38561700AF83D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		465CCD8D1E38561700AF83D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		465CCD8F1E38561700AF83D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = K97ZY2D46K;
+				INFOPLIST_FILE = RedDotRobot/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mkx.RedDotRobot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		465CCD901E38561700AF83D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = K97ZY2D46K;
+				INFOPLIST_FILE = RedDotRobot/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mkx.RedDotRobot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		465CCD771E38561700AF83D8 /* Build configuration list for PBXProject "RedDotRobot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				465CCD8C1E38561700AF83D8 /* Debug */,
+				465CCD8D1E38561700AF83D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		465CCD8E1E38561700AF83D8 /* Build configuration list for PBXNativeTarget "RedDotRobot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				465CCD8F1E38561700AF83D8 /* Debug */,
+				465CCD901E38561700AF83D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 465CCD741E38561700AF83D8 /* Project object */;
+}
